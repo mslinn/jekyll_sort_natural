@@ -14,10 +14,12 @@ This plugin overrides [`sort_natural`](https://shopify.github.io/liquid/filters/
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your Jekyll project's Gemfile, within the `jekyll_plugins` group:
 
 ```ruby
-gem 'jekyll_sort'
+group :jekyll_plugins do
+  gem 'jekyll_sort'
+end
 ```
 
 And then execute:
@@ -36,19 +38,20 @@ More information is available on
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies.
 
-Install development dependencies like this:
-```
-$ BUNDLE_WITH="development" bundle install
-```
+You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
 
 To build and install this gem onto your local machine, run:
 ```shell
 $ bundle exec rake install
 jekyll_sort 1.0.0 built to pkg/jekyll_sort-0.1.0.gem.
 jekyll_sort (1.0.0) installed.
+```
 
+Examine the newly built gem:
+```shell
 $ gem info jekyll_sort
 
 *** LOCAL GEMS ***
@@ -63,6 +66,8 @@ jekyll_sort (1.0.0)
     Generates Jekyll logger with colored output.
 ```
 
+
+### Build and Push to RubyGems
 To release a new version,
   1. Update the version number in `version.rb`.
   2. Commit all changes to git; if you don't the next step might fail with an unexplainable error message.
@@ -76,7 +81,10 @@ To release a new version,
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/mslinn/jekyll_sort.
+1. Fork the project
+2. Create a descriptively named feature branch
+3. Add your feature
+4. Submit a pull request
 
 
 ## License
