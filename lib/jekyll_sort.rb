@@ -17,6 +17,5 @@ module Jekyll
   end
 end
 
+Jekyll.info "Loaded jekyll_sort v#{JekyllSort::VERSION} plugin."
 Liquid::Template.register_filter(Jekyll::Sorts)
-
-Jekyll.info "Loaded jekyll_sort plugin."
