@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Mike Slinn"]
   spec.email = ["mslinn@mslinn.com"]
   spec.executables = GemSpecHelper.spec_executables(files)
-  spec.files = files
+  spec.files = GemSpecHelper.spec_files
   spec.homepage = "https://github.com/mslinn/jekyll_sort"
   spec.license = "MIT"
   spec.metadata = {
