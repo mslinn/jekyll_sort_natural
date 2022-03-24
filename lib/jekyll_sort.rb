@@ -17,5 +17,5 @@ module Jekyll
   end
 end
 
-PluginMetaLogger.instance.info { "Loaded jekyll_sort v#{JekyllSort::VERSION} plugin." }
+PluginMetaLogger.instance.info { "Loaded jekyll_sort v#{JekyllSortNatural::VERSION} plugin." }
 Liquid::Template.register_filter(Jekyll::Sorts)

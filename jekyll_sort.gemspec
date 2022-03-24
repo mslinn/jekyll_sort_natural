@@ -46,7 +46,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.required_ruby_version = ">= 2.6.0"
   spec.summary = "Provides a Jekyll filter that provides case-insensitive hash key sorting."
-  spec.version = JekyllSort::VERSION
+  spec.version = JekyllSortNatural::VERSION
 
   spec.add_dependency "jekyll", ">= 3.5.0"
   spec.add_dependency "jekyll_plugin_logger"
