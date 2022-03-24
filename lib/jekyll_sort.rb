@@ -2,7 +2,6 @@
 
 require "jekyll"
 require_relative "jekyll_sort/version"
-require "jekyll_plugin_logger"
 
 module Jekyll
   module Sorts
