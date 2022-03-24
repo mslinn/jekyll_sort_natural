@@ -21,7 +21,7 @@ end
 # rubocop:disable Metrics/BlockLength
 Gem::Specification.new do |spec|
   files = GemSpecHelper.spec_files
-  github = "https://github.com/mslinn/jekyll_plugin_logger"
+  github = "https://github.com/mslinn/jekyll_sort"
 
   spec.bindir = "exe"
   spec.authors = ["Mike Slinn"]
