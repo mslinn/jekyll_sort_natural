@@ -22,6 +22,12 @@ group :jekyll_plugins do
 end
 ```
 
+Also add it to `_config.yml`:
+```yaml
+plugins:
+  - jekyll_sort
+```
+
 And then execute:
 
     $ bundle install
