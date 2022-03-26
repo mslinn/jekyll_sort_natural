@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify the gem's dependencies in jekyll_sort.gemspec
+# Specify the gem's dependencies in jekyll_sort_natural.gemspec
 gemspec
 
 gem 'bundler', require: false

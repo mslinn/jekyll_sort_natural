@@ -5,7 +5,7 @@
 require "bundler/setup"
 require "fileutils"
 require "irb"
-require "jekyll_sort"
+require "jekyll_sort_natural"
 require "liquid"
 
 IRB.start(__FILE__)

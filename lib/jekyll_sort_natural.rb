@@ -2,10 +2,10 @@
 
 require "jekyll"
 require "jekyll_plugin_logger"
-require_relative "jekyll_sort/version"
+require_relative "jekyll_sort_natural/version"
 
 module Jekyll
-  module Sorts
+  module SortNatural
     # Sort a hash using String#casecmp the case-insensitive version of String#<=>
     # Modified from https://github.com/tkrotoff/osteo15.com/blob/b0c8bf66a75fe8b52ef38d94e5f5e1c9469c1957/_plugins/filters.rb#L13-L18
     # By default, Enumerable#sort uses <=>
@@ -17,5 +17,5 @@ module Jekyll
   end
 end
 
-PluginMetaLogger.instance.info { "Loaded jekyll_sort v#{JekyllSortNatural::VERSION} plugin." }
-Liquid::Template.register_filter(Jekyll::Sorts)
+PluginMetaLogger.instance.info { "Loaded jekyll_sort_natural v#{JekyllSortNatural::VERSION} plugin." }
+Liquid::Template.register_filter(Jekyll::SortNatural)

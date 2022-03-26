@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/jekyll_sort/version"
+require_relative "lib/jekyll_sort_natural/version"
 
 # rubocop:disable Metrics/BlockLength
 Gem::Specification.new do |spec|
-  github = "https://github.com/mslinn/jekyll_sort"
+  github = "https://github.com/mslinn/jekyll_sort_natural"
 
   spec.bindir = "exe"
   spec.authors = ["Mike Slinn"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
     "homepage_uri"      => spec.homepage,
     "source_code_uri"   => github,
   }
-  spec.name = "jekyll_sort"
+  spec.name = "jekyll_sort_natural"
   spec.post_install_message = <<~END_MESSAGE
 
     Thanks for installing #{spec.name}!

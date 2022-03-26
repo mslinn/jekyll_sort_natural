@@ -1,8 +1,8 @@
-`jekyll_sort`
-[![Gem Version](https://badge.fury.io/rb/jekyll_sort.svg)](https://badge.fury.io/rb/jekyll_sort)
+`jekyll_sort_natural`
+[![Gem Version](https://badge.fury.io/rb/jekyll_sort_natural.svg)](https://badge.fury.io/rb/jekyll_sort_natural)
 ===========
 
-`jekyll_sort` is a Jekyll plugin that sorts hashes using `String#casecmp`, the case-insensitive version of `String#<=>`.
+`jekyll_sort_natural` is a Jekyll plugin that sorts hashes using `String#casecmp`, the case-insensitive version of `String#<=>`.
 
 This plugin contains code modified from [tkrotoff](https://github.com/tkrotoff/osteo15.com/blob/b0c8bf66a75fe8b52ef38d94e5f5e1c9469c1957/_plugins/filters.rb#L13-L18).
 
@@ -18,14 +18,14 @@ Add this line to your Jekyll project's Gemfile, within the `jekyll_plugins` grou
 
 ```ruby
 group :jekyll_plugins do
-  gem 'jekyll_sort'
+  gem 'jekyll_sort_natural'
 end
 ```
 
 Also add it to `_config.yml`:
 ```yaml
 plugins:
-  - jekyll_sort
+  - jekyll_sort_natural
 ```
 
 And then execute:
@@ -34,7 +34,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll_sort
+    $ gem install jekyll_sort_natural
 
 
 ## Additional Information
@@ -52,20 +52,20 @@ You can also run `bin/console` for an interactive prompt that will allow you to 
 To build and install this gem onto your local machine, run:
 ```shell
 $ bundle exec rake install
-jekyll_sort 1.0.0 built to pkg/jekyll_sort-0.1.0.gem.
-jekyll_sort (1.0.0) installed.
+jekyll_sort_natural 1.0.0 built to pkg/jekyll_sort_natural-0.1.0.gem.
+jekyll_sort_natural (1.0.0) installed.
 ```
 
 Examine the newly built gem:
 ```shell
-$ gem info jekyll_sort
+$ gem info jekyll_sort_natural
 
 *** LOCAL GEMS ***
 
-jekyll_sort (1.0.0)
+jekyll_sort_natural (1.0.0)
     Author: Mike Slinn
     Homepage:
-    https://github.com/mslinn/jekyll_sort
+    https://github.com/mslinn/jekyll_sort_natural
     License: MIT
     Installed at: /home/mslinn/.gems
 
