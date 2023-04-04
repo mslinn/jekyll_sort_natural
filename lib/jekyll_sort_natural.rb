@@ -1,8 +1,6 @@
-# frozen_string_literal: true
-
-require "jekyll"
-require "jekyll_plugin_logger"
-require_relative "jekyll_sort_natural/version"
+require 'jekyll'
+require 'jekyll_plugin_logger'
+require_relative 'jekyll_sort_natural/version'
 
 module Jekyll
   module SortNatural
