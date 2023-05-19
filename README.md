@@ -22,24 +22,14 @@ group :jekyll_plugins do
 end
 ```
 
-Also add it to `_config.yml`:
-```yaml
-plugins:
-  - jekyll_sort_natural
-```
-
 And then execute:
 
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install jekyll_sort_natural
+    $ bundle 
 
 
 ## Additional Information
 More information is available on
-[Mike Slinn&rsquo;s website](https://www.mslinn.com/blog/2020/10/03/jekyll-plugins.html).
+[Mike Slinn&rsquo;s website](https://www.mslinn.com/jekyll_plugins/jekyll_sort_natural.html).
 
 
 ## Development
