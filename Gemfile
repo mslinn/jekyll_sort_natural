@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 source 'https://rubygems.org'
 
 # Specify the gem's dependencies in jekyll_sort_natural.gemspec
@@ -14,7 +12,6 @@ group :test, :development do
   gem 'rubocop-performance', require: false
   gem 'rubocop-rake', require: false
   gem 'rubocop-rspec', require: false
-  gem 'ruby-debug-ide', require: false
 end
 
 group :test do
